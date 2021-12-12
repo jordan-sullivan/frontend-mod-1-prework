@@ -1,6 +1,6 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. 
+to achieve the desired result.
 
 Each section has 2 examples that are already completed. Your task is to complete
 any remaining prompt in each section.
@@ -48,7 +48,7 @@ console.log(20 / 4);
 
 
 // YOU DO: log the result of the modulo of 10 into 54:
-console.log(10 mod 54); 
+console.log(10 % 54); 
 
 
 
@@ -77,5 +77,5 @@ console.log(4 <= 5);
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-// as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+// as you would expect?

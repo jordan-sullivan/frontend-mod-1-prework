@@ -17,7 +17,10 @@
 
 3. How would you log the string `"Hello World!"` to the console?
 
+![image](https://user-images.githubusercontent.com/95270427/145729589-802650c2-3481-499a-a521-fa3be37f2714.png)
+
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
+* `\\` lets a user begin to write comments to the interpreter. The point of a code comment is to allow further explination of a script to y9our future self or another interpreter. 
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 * A variable is like a labeled container that can store several different items or values inside of it.

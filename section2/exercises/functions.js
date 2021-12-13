@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,6 +26,11 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello() {
+  console.log("Oh, Hello!");
+};
+sayHello();
+sayHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -34,18 +39,36 @@ printName();
 // YOU DO: Write a function named greetMe that takes an argument, a String, of a name.
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
-
+function greetMe(name) {
+  console.log("Hello " + name);
+};
+greetMe("Jordan");
+greetMe("Louise");
+greetMe("Peter");
 
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
+function add(x, y) {
 
+  console.log(x + y);
+
+};
+
+add(1, 2);
+add(3, 4);
+add(5, 6);
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
+function places(city, country) {
+  console.log(city + "and " + country + "are places that I have lived!")
+};
 
+places("Paris ", "New Zealand ");
+places("Denver ", "France ");
 
 
 //-------------------
@@ -60,6 +83,9 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-
+I named the function "places" becuase my call refers back to "places" in the statement.
+It was a broader description, then my parameters became a little more specific so
+I knew exactly which one was in which spot and could distinguish between the two: city and country.
+My arguments were the most specific.
 
 */

@@ -63,10 +63,10 @@ for (var i = 2; i< names.length; i++) {
 // Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
 
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
-var isOver18 = true
 for (var i = 0; i < ages.length ; i++){
-  if (ages >= 18)
+  if (ages[i] >= 18){
 
   console.log("Make sure you get out and VOTE!")
+  } else {
 console.log("Oh no, you can't vote yet.")
 }

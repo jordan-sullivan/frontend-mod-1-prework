@@ -16,5 +16,17 @@ Make sure to run the file with node in your command line.
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
-}
+  tableNumber: 47,
+  prepare: function() {
+    console.log("Your " + lunchOrder.beverage + " and " + lunchOrder.dish + " order is currently being worked on by the team.");
+  },
+  complete: function() {
+    console.log("Your order is complete and will be delivered to you at Table Number " + lunchOrder.tableNumber);
+    }
+  }
+
+console.log(lunchOrder.prepare)
+console.log(lunchOrder.complete)
+
+lunchOrder.prepare();
+lunchOrder.complete();

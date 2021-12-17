@@ -32,8 +32,13 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
 - `Add Week 1 Screenshot Here`
+![Screen Shot 2021-12-16 at 10 06 04 PM](https://user-images.githubusercontent.com/95270427/146492001-6ca6d792-cb33-4fe7-9d8f-e20fb87fd61f.png)
+
 - `Add Week 2 Screenshot Here`
+![Screen Shot 2021-12-16 at 10 07 27 PM](https://user-images.githubusercontent.com/95270427/146492103-6c4e2862-0da7-4115-a936-ec8a3ada1818.png)
+
 - `Add Week 3 Screenshot Here`
+![Screen Shot 2021-12-16 at 10 07 27 PM](https://user-images.githubusercontent.com/95270427/146492103-6c4e2862-0da7-4115-a936-ec8a3ada1818.png)
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
@@ -86,5 +91,8 @@ What is your plan and how are you going to hold yourself to it? Specifically...
 - What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
 
 ## Extensions
-Check out our thoughts on [extension activities](https://mod0.turing.io/prework/extensions) if you find yourself with some extra time before starting Mod 1!
+Check out our thoughts on [extension activities](https![Screen Shot 2021-12-16 at 10 08 15 PM](https://user-images.githubusercontent.com/95270427/146492148-f32ed259-77c1-40ed-be6f-50a9e483cf6e.png)
+://mod0.turing.io/prework/extensions) if you find yourself with some extra time before starting Mod 1!
+
+
 

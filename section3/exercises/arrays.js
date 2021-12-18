@@ -146,13 +146,9 @@ var chargerType = "car";
 if (percentBatteryLeft >= 15){
 //Write the following message onto the console
   console.log("You can call an Uber!");
-//If user did not have enough battery left, they have less than 15%
-} else if (percentBatteryLeft < 15){
-//Promt user to see if they have a car charger.
-  console.log("Do you have a car charger?");
 //If user meets BOTH logical operators they may
 //receive a message stating they can take an uber..
-}if (hasCharger && chargerType === "car"){
+} else if (hasCharger === true && chargerType === "car"){
 //Display following meaasge to user
   console.log("You have the right charger and can call an Uber!")
 //If either the boolean value is false OR string does not strictly equal "car"

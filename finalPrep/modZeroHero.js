@@ -2,13 +2,13 @@
 
 // Declare two variables - heroName AND specialAbility - set to strings
 var heroName = "J-Dawg";
-var specialAbility = "transports herself to another location in entire world with a sneeze";
+var specialAbility = "transport to another location";
 
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
-var greeting = "What's up! I'm J-Dawg!";
-var catchPhrase = "Hello, Achoo!, Goodbye!";
+var greeting = ("What's up! " + "I'm " + heroName + "!");
+var catchPhrase = "With a sneeze, I " + specialAbility + " with ease!";
 
 // Declare two variables - power AND energy - set to integers
 var power = 1313;
@@ -45,7 +45,9 @@ var count = archEnemies.push("Dr. Passport Enforcer");
 console.log(archEnemies);
 
 // Remove the first sidekick from the sidekicks array
-console.log(sidekicks.pop());
+sidekicks.shift();
+
+console.log(sidekicks);
 
 
 
@@ -61,7 +63,6 @@ console.log(sidekicks);
 var dangaLevel = 34;
 var savesDay = "J-Dawg saves the day";
 var excuse = "Uhh, gotta achoo outta here";
-
 function assessSituation(dangaLevel, savesDay, excuse) {
 
   if (dangaLevel > 50) {
@@ -69,7 +70,7 @@ function assessSituation(dangaLevel, savesDay, excuse) {
   } else if (dangaLevel < 10) {
     console.log("Meh. Hard pass.");
   } else {
-  console.log(savesDay);
+    console.log(savesDay);
   }
 }
 
@@ -123,33 +124,41 @@ var scaryMonster = {
 //   - energyLevel = 50
 
 
-var superHero = {
-  archNemesis: "The Syntax Error",
-  powerLevel: 100,
-  energylevel:50,
-  sayname: function() {
-    console.log(superhero.sayname);
-  },
-  maximizeEnergy: function() {
-    console.log(energyLevel + 950);
-  },
-  gainPower:function() {
-    console.log(`${energyLevel} * ${energyLevel});
+class SuperHero {
+  constructor() {
+  this.name = "J-Dawg";
+  this.superpower = "transports with a sneeze";
+  this.age = 33;
+  this.archNemesis = archNemesis;
+  this.powerLevel= powerLevel100;
+  this.energyLevel=energyLevel;
+
+  console.log(name);
+
   }
 }
 
+var otherInfo = new SuperHero {"The Syntax Error", 100, 50);
+console.log(50);
 
 
 
 // - Create the following class methods
 
 //   - sayName, should print the hero's name to the console
-
+sayname: function() {
+  console.log(superhero.sayname);
+},
 //   - maximizeEnergy, should update the energyLevel to 1000
 //   - gainPower, should take an argument of a number and INCREASE the powerLevel by that number
+maximizeEnergy: function() {
+  console.log(energyLevel + 950);
 
 
-
+    },
+    gainPower:function()
+      console.log(`${energyLevel} * ${energyLevel});
+    
 // Reflection
 // What parts were most difficult about this exerise?
 //Functions tripped me up in this section. I completely forgot what to do here and had to look them up all over again.

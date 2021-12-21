@@ -32,7 +32,7 @@ console.log(animals.length);
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
 var animals = ["Zebra", "Giraffe", "Elephant"];
-animals.splice(2, 1, "Gorilla");
+animals[2] = "Gorilla";
 console.log(animals);
 
 var animals = ["Zebra", "Giraffe", "Elephant"];
@@ -75,7 +75,7 @@ console.log(foods)
 // log the changed array to verify that item has been removed
 var foods = ["carrot", "beet", "plum", "bread", "broccoli"];
 foods.pop();
-console.log(foods)
+console.log(foods);
 
 
 
@@ -83,7 +83,7 @@ console.log(foods)
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
 var foods = ["carrot", "beet", "plum", "bread"];
-console.log(foods.unshift("potato", "kiwifruit", "pasta"))
+foods.unshift();
 console.log(foods)
 
 // YOU DO: Remove the food that is in index position 0.

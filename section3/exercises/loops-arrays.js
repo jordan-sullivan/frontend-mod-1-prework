@@ -11,8 +11,8 @@ Make sure to run the file with node in your command line.
 // EXAMPLE: Write code below that iterates through a list of animals and print
 // each animal.
 var animals = ["Zebra", "Giraffe", "Elephant"];
-
 for (var i = 0; i < animals.length; i++) {
+
   console.log(animals[i]);
 }
 
@@ -63,10 +63,11 @@ for (var i = 2; i< names.length; i++) {
 // Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
 
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
-for (var i = 0; i < ages.length ; i++){
-  if (ages[i] >= 18){
+  for (var i = 0; i < ages.length ; i++) {
+    if (ages[i] >= 18) {
 
-  console.log("Make sure you get out and VOTE!")
-  } else {
-console.log("Oh no, you can't vote yet.")
-}
+      console.log("Make sure you get out and VOTE!");
+    } else {
+      console.log("Oh no, you can't vote yet.")
+  }
+      }
